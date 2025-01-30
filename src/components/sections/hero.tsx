@@ -9,6 +9,19 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const ease = [0.16, 1, 0.3, 1];
+import mixpanel from "mixpanel-browser";
+import { siteConfig } from "@/lib/config";
+
+ 
+// Near entry of your product, init Mixpanel
+
+if(typeof window !== "undefined") {
+  mixpanel.init(siteConfig.keys.mixpanel, {
+    debug: false,
+    track_pageview: true,
+    persistence: "localStorage",
+  });
+}
 
 function HeroPill() {
   

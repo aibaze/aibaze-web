@@ -10,6 +10,9 @@ export const siteConfig = {
   description: "Automate your workflow with AI",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
   keywords: ["AAA", "AI Agent", "automation", "AI Agency"],
+  keys:{
+    mixpanel: process.env.NEXT_PUBLIC_MIXPALNEL_TOKEN || ""
+  },
   links: {
     email: "support@aibaze.com",
     twitter: "https://x.com/aibaze_agency",
