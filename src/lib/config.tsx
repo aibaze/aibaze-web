@@ -15,7 +15,7 @@ export const siteConfig = {
     twitter: "https://x.com/aibaze_agency",
     discord: "#",
     github: "#",
-    instagram: "https://instagram.com/magicuidesign/",
+    instagram: "https://www.instagram.com/aibaze_agency?igsh=MTJmd2hiNnU4Z2pieg==",
     linkedin:"https://www.linkedin.com/company/aibaze-agency"
   },
   header: [
