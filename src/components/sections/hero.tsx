@@ -69,7 +69,7 @@ function HeroTitles() {
           staggerChildren: 0.2,
         }}
       >
-        {["Automate", "your", "workflow", "with AI"].map((text, index) => (
+        {["AI-Powered", "workflows", "Instant", "Efficiency"].map((text, index) => (
           <motion.span
             key={index}
             className="inline-block px-1 md:px-2 text-balance font-semibold"
@@ -95,13 +95,13 @@ function HeroTitles() {
           ease,
         }}
       >
-        No matter what problem you have, our AI can help you solve it.
+       Automate operations, eliminate bottlenecks, and scale effortlessly with Autonomous AI Agents designed to think and act just like your best employee.<br/> (But faster)
       </motion.p>
     </div>
   );
 }
 
-function HeroCTA() {
+export function HeroCTA({hideText=false}) {
   return (
     <>
       <motion.div
@@ -121,14 +121,16 @@ function HeroCTA() {
           Get started for free
         </Link>
       </motion.div>
-      <motion.p
+      {!hideText && (
+        <motion.p
         className="mt-5 text-sm text-muted-foreground"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.0, duration: 0.8 }}
-      >
-        7 day free trial. No credit card required.
+        >
+       Free consultation with our AI experts
       </motion.p>
+      )}
     </>
   );
 }

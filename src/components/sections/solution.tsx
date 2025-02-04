@@ -9,9 +9,9 @@ import { motion } from "framer-motion";
 
 const features = [
   {
-    title: "Advanced AI Algorithms",
+    title: "Social Media AI Agents",
     description:
-      "Our platform utilizes cutting-edge AI algorithms to provide accurate and efficient solutions for your business needs.",
+      "AI-Driven content creation/Repurposing, Autommatc DM Reply to have your brand active 24/7/365 without manual effort.",
     className: "hover:bg-red-500/10 transition-all duration-500 ease-out",
     content: (
       <>
@@ -24,9 +24,9 @@ const features = [
     ),
   },
   {
-    title: "Secure Data Handling",
+    title: "Customer support automation",
     description:
-      "We prioritize your data security with state-of-the-art encryption and strict privacy protocols, ensuring your information remains confidential.",
+      "Chatbots, Call Center Voice bots, and many for to automate and your customer support and increase customer satisfaction with Human-Like bots with instant reply time.",
     className:
       "order-3 xl:order-none hover:bg-blue-500/10 transition-all duration-500 ease-out",
     content: (
@@ -39,9 +39,9 @@ const features = [
     ),
   },
   {
-    title: "Seamless Integration",
+    title: "Operations Automation",
     description:
-      "Easily integrate our AI solutions into your existing workflows and systems for a smooth and efficient operation.",
+      "Scale your business Automating operations: HR Procesess, Lead generation and qualification and Service delivery.",
     className:
       "md:row-span-2 hover:bg-orange-500/10 transition-all duration-500 ease-out",
     content: (
@@ -65,9 +65,9 @@ const features = [
     ),
   },
   {
-    title: "Customizable Solutions",
+    title: "Custom AI Tailored for your business",
     description:
-      "Tailor our AI services to your specific needs with flexible customization options, allowing you to get the most out of our platform.",
+      "Aibaze analyzes your business and design AI Agents to match your unique processes to save time and money while improving results.",
     className:
       "flex-row order-4 md:col-span-2 md:flex-row xl:order-none hover:bg-green-500/10 transition-all duration-500 ease-out",
     content: (
@@ -87,12 +87,12 @@ export default function Component() {
   return (
     <Section
       title="Solution"
-      subtitle="Empower Your Business with AI Workflows"
-      description="Generic AI tools won't suffice. Our platform is purpose-built to provide exceptional AI-driven solutions for your unique business needs."
+      subtitle="Efficient & Personalized AI-Agents for Your Business"
+      description="Aibaze uncovers your business's key opportunities for AI-driven efficiency. Enjoy a free consultation with a tailored strategy to optimize your operations."
       className="bg-neutral-100 dark:bg-neutral-900"
     >
       <div className="mx-auto mt-16 grid max-w-sm grid-cols-1 gap-6 text-gray-500 md:max-w-3xl md:grid-cols-2 xl:grid-rows-2 md:grid-rows-3 xl:max-w-6xl xl:auto-rows-fr xl:grid-cols-3">
-        {features.map((feature, index) => (
+        {features.reverse().map((feature, index) => (
           <motion.div
             key={index}
             className={cn(

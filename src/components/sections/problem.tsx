@@ -5,30 +5,30 @@ import { Brain, Shield, Zap } from "lucide-react";
 
 const problems = [
   {
-    title: "Data Overload",
+    title: "Time and Money loss",
     description:
-      "Businesses struggle to make sense of vast amounts of complex data, missing out on valuable insights that could drive growth and innovation.",
+      "Companies relying on manual processes fall behind those that automate and offer real-time client availability ",
     icon: Brain,
   },
   {
-    title: "Slow Decision-Making",
+    title: "Boosted Profit ",
     description:
-      "Traditional data processing methods are too slow, causing businesses to lag behind market changes and miss crucial opportunities.",
+      "Companies that automate their processes see an average profit increase of 30%—cutting costs, optimizing conversions, and unlocking scalable efficiency.",
     icon: Zap,
   },
   {
-    title: "Data Security Concerns",
+    title: "Competitive Disadvantage",
     description:
-      "With increasing cyber threats, businesses worry about the safety of their sensitive information when adopting new technologies.",
+      "Manual operations are locking your business when rapid adaptation is truly essential. Failing to automate now means missing critical opportunities to evolve and scale in a fast-paced market.",
     icon: Shield,
-  },
+  }
 ];
 
 export default function Component() {
   return (
     <Section
       title="Problem"
-      subtitle="Manually entering your data is a hassle."
+      subtitle="Why Manual Work is Costing you"
     >
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
         {problems.map((problem, index) => (
