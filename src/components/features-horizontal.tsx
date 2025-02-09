@@ -75,6 +75,7 @@ const AccordionContent = forwardRef<HTMLDivElement, AccordionContentProps>(
 AccordionContent.displayName = "AccordionContent";
 
 type CardDataProps = {
+  subtitle: ReactNode;
   id: number;
   title: string;
   content: string;
@@ -253,6 +254,11 @@ export default function Features({
                         <div className="font-bold text-xl my-3 ">
                           {item.title}
                         </div>
+                        <div className="font-bold text-lg my-3 text-primary ">
+                          {item.subtitle}
+                        </div>
+                        <div className="font-bold text-xl my-3 ">
+                        </div>
                         <div className="justify-center text-center mb-4">
                           {item.content}
                         </div>
@@ -327,7 +333,8 @@ export default function Features({
                       }}
                     ></div>
                   </div>
-                  <h2 className="text-xl font-bold">{item.title}</h2>
+                  <h2 className="text-xl font-bold">{item.title}</h2> <br/>
+                  <h2 className="text-xl font-bold">{item.subtitle}</h2>
                   <p className="mx-0 max-w-sm text-balance text-sm">
                     {item.content}
                   </p>

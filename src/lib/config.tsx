@@ -93,6 +93,24 @@ export const siteConfig = {
       label: "Blog",
     },
   ],
+  pricingMain: [
+    {
+      name: "PRO",
+      href: "#",
+      price: "$0",
+      period: "call",
+      yearlyPrice: "$0",
+      features: [
+        {title:"Complimentary Discovery Session.",text:"Explore your unique business needs and uncover new opportunities—on us"},
+        {title:"Effortless Setup & Testing",text:"We manage the entire implementation process, so you can focus on what matters most."},
+        {title:"AI-Driven Automations", text:"Leverage advanced AI to streamline routine tasks and boost your efficiency."},
+        {title:"No-Obligation Consultation", text:"Not sure if it’s the right fit? Let’s chat first—you decide what’s next."},
+      ],
+      description: "Free discovery consultation",
+      buttonText: "Book Now",
+      isPopular: true,
+    },
+  ],
   pricing: [
     {
       name: "BASIC",
@@ -148,58 +166,46 @@ export const siteConfig = {
   ],
   faqs: [
     {
-      question: "What is aibaze.com?",
+      question: "What is our AI Automation Agency?",
       answer: (
         <span>
-          aibaze.com is a platform that helps you build and manage your AI-powered
-          applications. It provides tools and services to streamline the
-          development and deployment of AI solutions.
+          We are a dedicated AI Automation agency that builds custom agents tailored to your business needs. Whether you need lead generation and nurturing, social media automation, or any other type of AI-driven solution, our team designs and implements systems that streamline operations and drive growth.
         </span>
       ),
     },
     {
-      question: "How can I get started with aibaze.com?",
+      question: "How can I get started with your services?",
       answer: (
         <span>
-          You can get started with aibaze.com by signing up for an account on our
-          website, creating a new project, and following our quick-start guide.
-          We also offer tutorials and documentation to help you along the way.
+          Getting started is simple! Contact us via our website or schedule a consultation to discuss your business requirements. We'll work with you to develop a custom AI solution that perfectly fits your operational goals.
         </span>
       ),
     },
     {
-      question: "What types of AI models does aibaze.com support?",
+      question: "What types of AI automation services do you offer?",
       answer: (
         <span>
-          aibaze.com supports a wide range of AI models, including but not limited
-          to natural language processing, computer vision, and predictive
-          analytics. We continuously update our platform to support the latest
-          AI technologies.
+          Our expertise covers a wide range of AI automation services, including custom lead generation and nurturing agents, social media automation tools, customer service bots, and many other tailored solutions designed to optimize your business processes.
         </span>
       ),
     },
     {
-      question: "Is aibaze.com suitable for beginners in AI development?",
+      question: "Are your solutions suitable for businesses of all sizes?",
       answer: (
         <span>
-          Yes, aibaze.com is designed to be user-friendly for both beginners and
-          experienced developers. We offer intuitive interfaces, pre-built
-          templates, and extensive learning resources to help users of all skill
-          levels create AI-powered applications.
+          Absolutely. Our custom AI agents are designed to scale with your business—from startups to large enterprises. We ensure that each solution is tailored to address your specific needs, regardless of your company's size.
         </span>
       ),
     },
     {
-      question: "What kind of support does aibaze.com provide?",
+      question: "What kind of support do you provide after implementation?",
       answer: (
         <span>
-          aibaze.com provides comprehensive support including documentation, video
-          tutorials, a community forum, and dedicated customer support. We also
-          offer premium support plans for enterprises with more complex needs.
+          We offer comprehensive post-implementation support, including maintenance, training, and ongoing updates. Our dedicated support team is always available to help ensure your custom AI agents continue to operate efficiently and effectively.
         </span>
       ),
     },
-  ],
+  ],  
   footer: [
     {
       title: "Product",

@@ -69,7 +69,7 @@ function HeroTitles() {
           staggerChildren: 0.2,
         }}
       >
-        {["AI-Powered", "workflows", "Instant", "Efficiency"].map((text, index) => (
+        {["Save Time,", "Work Smart","With 24/7", "AI agents"].map((text, index) => (
           <motion.span
             key={index}
             className="inline-block px-1 md:px-2 text-balance font-semibold"
@@ -95,7 +95,7 @@ function HeroTitles() {
           ease,
         }}
       >
-       Automate operations, eliminate bottlenecks, and scale effortlessly with Autonomous AI Agents designed to think and act just like your best employee.<br/> (But faster)
+        Automate operations and scale with AI Agents that work like the best employee—(but faster).
       </motion.p>
     </div>
   );
@@ -114,11 +114,11 @@ export function HeroCTA({hideText=false}) {
           href="/signup"
           className={cn(
             buttonVariants({ variant: "default" }),
-            "w-full sm:w-auto text-background flex gap-2"
+            "w-full sm:w-auto text-white flex gap-2"
           )}
         >
-          <Icons.logo className="h-6 w-6" />
-          Get started for free
+          <Icons.logo className="h-1 w-1" />
+          FREE DISCOVERY CALL
         </Link>
       </motion.div>
       {!hideText && (

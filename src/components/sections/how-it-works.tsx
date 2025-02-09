@@ -32,7 +32,7 @@ const data = [
 
 export default function Component() {
   return (
-    <Section title="How it works" subtitle="Just 3 steps away from AI-driven efficiency">
+    <Section title="How it works" subtitle="Unlock AI-Driven Efficiency in 3 Simple Steps">
       <Features data={data} />
             <HeroCTA hideText={true} />
       
