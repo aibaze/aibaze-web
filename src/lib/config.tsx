@@ -177,8 +177,8 @@ export const siteConfig = {
       question: "How can I get started with your services?",
       answer: (
         <span>
-          Getting started is simple! Contact us via our website or schedule a consultation to discuss your business requirements. We'll work with you to develop a custom AI solution that perfectly fits your operational goals.
-        </span>
+        Getting started is simple! Contact us via our website or schedule a consultation to discuss your business requirements. We&apos;ll work with you to develop a custom AI solution that perfectly fits your operational goals.
+      </span>
       ),
     },
     {
@@ -193,8 +193,8 @@ export const siteConfig = {
       question: "Are your solutions suitable for businesses of all sizes?",
       answer: (
         <span>
-          Absolutely. Our custom AI agents are designed to scale with your business—from startups to large enterprises. We ensure that each solution is tailored to address your specific needs, regardless of your company's size.
-        </span>
+        Absolutely. Our custom AI agents are designed to scale with your business—from startups to large enterprises. We ensure that each solution is tailored to address your specific needs, regardless of your company&apos;s size.
+      </span>
       ),
     },
     {
